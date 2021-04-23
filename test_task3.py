@@ -63,23 +63,3 @@ def test_total_credits():
 	print(credit_sum)
 	assert credit_sum != None 
 
-
-# Calculate the sum of all credited transactions
-# credit_sum = 0
-# for item in credited_trans:
-#     credit_sum = credit_sum + float(item['ammount'].replace('$',''))
-# print(credit_sum)
-
-# # use smtp python library and send an email to your personal gmail id
-# import smtplib
-# Email_Address = 'akhilesh.rymec@gmail.com'
-# password = 'xspalimruexjugcg'
-# with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
-# 	smtp.ehlo()
-# 	smtp.starttls()
-# 	smtp.ehlo()
-# 	smtp.login(Email_Address, password)
-# 	subject = "Bank Account transaction"
-# 	body = 'Savings account id - {0}\nSum of all credits - {1}\nCurrent Month - {2}'.format(acc_id,credit_sum,'March')
-# 	msg = f'Subject: {subject}\n\n{body}'
-# 	smtp.sendmail(Email_Address, 'akhilesh29392@gmail.com', msg)
