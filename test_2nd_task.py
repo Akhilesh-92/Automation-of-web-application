@@ -92,12 +92,4 @@ def test_latest_date():
 		    		latest_date = new_date
 	print(latest_date)
 	assert latest_date == '2021-04-16'
-	
 
-#  write the information to a csv file
-# import csv
-# csv_file =  open('Account_da.csv', mode='w')
-# fieldnames = ['Account type', 'Account ID', 'Account Balance', 'Last transaction date']
-# writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-# writer.writeheader()
-# writer.writerow({'Account type' : acc_type, 'Account ID' : acc_id, 'Account Balance': acc_balance['balance'], 'Last transaction date': latest_date })
